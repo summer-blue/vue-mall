@@ -1,6 +1,9 @@
 import axios from '../config/axios-admin';
 
 //管理员登录
+/**
+ * 蓝岚是个傻瓜
+ * */
 export function login(data){
 	const res = axios.post('/login',data);
 	return new Promise((resolve,reject)=>{
